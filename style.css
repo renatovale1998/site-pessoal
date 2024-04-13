@@ -14,7 +14,7 @@
 }
 
 body{
-    min-width: 280px;
+    min-width: 300px;
 }
 
 header{
@@ -79,7 +79,7 @@ img{
     height: auto;
 }
 
-@media only screen and (max-width: 450px) {
+@media screen and (min-width: 280px) and (max-width: 500px) {
 
     .conteudo h1{
         font-size: 2em;
