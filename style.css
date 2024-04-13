@@ -13,6 +13,10 @@
     padding: 0px;
 }
 
+body{
+    min-width: 280px;
+}
+
 header{
     background-image:linear-gradient(to right, var(--cor1), var(--cor2));
     height: 92vh;
@@ -74,3 +78,19 @@ img{
     width: 400px;
     height: auto;
 }
+
+@media only screen and (max-width: 450px) {
+    
+    .conteudo h1{
+        font-size: 2em;
+    }
+    
+    .conteudo p{
+        font-size: 1em;
+    }
+    
+    img{
+        width: 100%;
+        height: auto;
+    }
+  }
